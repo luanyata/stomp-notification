@@ -4,14 +4,14 @@ Lib para aplicação de notificação usando StompJS
 
 _Observação: Versão atual utiliza token para autenticação_
 
-## Instação
+## Instalação
 
 _Observação: Como a lib está em processo de desenvolvimento e não temos a primeira versão seu pacote ainda não foi portado para o repositorio do NPM._
 
 No seu `package.json` em dependencias adicione a linha:
 
 ```
-stomp-notification": "git+https://github.com/luanyata/stomp-notification.git"
+stomp-notification": "git+https://github.com/luanyata/stomp-notification.git#dev"
 ```
 
 e depois faça a instalação do pacote com `npm install`.
@@ -26,7 +26,7 @@ Antes de comercarmos a utilizar a lib é necessario carregar o JS e o CSS para e
 <link rel="stylesheet" href="iziToast.min.css" />
 ```
 
-Agora carreguei também o javascript?
+Agora carregue também o javascript?
 
 ### IziToast JS:
 
