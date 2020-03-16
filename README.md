@@ -18,6 +18,24 @@ e depois faça a instalação do pacote com `npm install`.
 
 ## Importação:
 
+Antes de comercarmos a utilizar a lib é necessario carregar o JS e o CSS para exibir a notificação. Para isso carregue na tag `<head>` o CSS abaixo:
+
+### IziToast Css:
+
+```html
+<link rel="stylesheet" href="iziToast.min.css" />
+```
+
+Agora carreguei também o javascript?
+
+### IziToast JS:
+
+```html
+<script src="iziToast.min.js" type="text/javascript"></script>
+```
+
+Após carregamento vamos importar a lib para utilização:
+
 ```js
 const { StompNotification } = require("stomp-notification");
 ```

@@ -1,7 +1,7 @@
 {
   "name": "stomp-notification",
   "version": "1.0.0",
-  "description": "Lib simplificada para trabalhar com Stomp e o Sockjs-Client",
+  "description": "Lib para aplicação de notificação usando StompJS",
   "main": "index.js",
   "scripts": {
     "release": "standard-version",
@@ -37,10 +37,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/luanyata/stomp-easy.git"
+    "url": "git+https://github.com/luanyata/stomp-notification.git"
   },
   "bugs": {
-    "url": "https://github.com/luanyata/stomp-easy/issues"
+    "url": "https://github.com/luanyata/stomp-notification/issues"
   },
-  "homepage": "https://github.com/luanyata/stomp-easy#readme"
+  "homepage": "https://github.com/luanyata/stomp-notification#readme"
 }
